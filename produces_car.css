@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #081b29;
+    font-family: sans-serif;
+}
+
+.nav {
+    width: 100%;
+    height: 60px;
+    background-color: #081b29;
+    box-shadow: 0 0 25px #0ef;
+    border: 2px solid #0ef;
+    border-right: none;
+    border-left: none;
+}
+
+.nav .logo {
+    position: fixed;
+    padding-top: 0px;
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.nav .logo:hover {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.nav ul {
+    float: right;
+    /*padding: 15px 10px;*/
+    margin-right: 20px;
+}
+
+.nav ul .Time {
+    height: 0%;
+}
+
+.nav ul .Time .time {
+    position: relative;
+    right: 100px;
+    padding: 15px 10px;
+    padding-left: 12px;
+    color: #ffffff;
+    top: 6px;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 60px;
+}
+
+.nav ul li a {
+    color: #b1eeeb;
+    text-shadow: 1px 2px 0 #0059ff;
+    padding: 15px 10px;
+    position: relative;
+    top: -50px;
+}
+
+.nav ul li a:hover {
+    color: #0ef;
+    border-bottom: 4px solid #0ef;
+}
+
+.change-theme {
+    width: 100px;
+    height: 0;
+    position: relative;
+    left: 1110px;
+    font-size: 10px;
+}
+
+.change-theme h1 {
+    width: 200px;
+    color: #4d4df1;
+    background-color: #020720;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.change-theme .as h2:nth-child(1) {
+    background-color: #200202;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.change-theme .as h2:nth-child(1) a {
+    color: #f14d4d;
+}
+
+.change-theme .as h2:nth-child(2) {
+    background-color: #022003;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.change-theme .as h2:nth-child(2) a {
+    color: #68f14d;
+}
+
+.change-theme h1:hover {
+    cursor: pointer;
+}
+
+.change-theme .as h2 a {
+    cursor: pointer;
+}
